@@ -53,4 +53,3 @@ touch.size.calibration = normalized
 
 # Orientation
 touch.orientation.calibration = vector
-
