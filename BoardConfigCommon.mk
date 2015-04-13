@@ -104,6 +104,7 @@ MALLOC_IMPL := dlmalloc
 BOARD_HARDWARE_CLASS := device/asus/transformer-common/cmhw/
 
 # TWRP
+TW_THEME := landscape_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 BOARD_HAS_NO_REAL_SDCARD := true
 BOARD_HAS_LARGE_FILESYSTEM := true
