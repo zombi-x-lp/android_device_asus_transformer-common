@@ -18,6 +18,9 @@
 BOARD_USES_GENERIC_AUDIO := false
 BOARD_HAVE_PRE_KITKAT_AUDIO_BLOB := true
 
+# Sensor defines
+SENSORS_NEED_SETRATE_ON_ENABLE := true
+
 # Camera defines
 USE_CAMERA_STUB := false
 
