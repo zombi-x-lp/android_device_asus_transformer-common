@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Install on all transformer tablers
+TARGET_OTA_ASSERT_DEVICE := tf201t,tf300t,301t,tf700t
+
 # Audio defines
 BOARD_USES_GENERIC_AUDIO := false
 BOARD_HAVE_PRE_KITKAT_AUDIO_BLOB := true
