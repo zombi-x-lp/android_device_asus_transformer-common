@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
 
 # Wifi related files and packages
 PRODUCT_PACKAGES += \
+    libwpa_cliend \
     hostapd \
     dhcpcd.conf \
     wpa_supplicant \
