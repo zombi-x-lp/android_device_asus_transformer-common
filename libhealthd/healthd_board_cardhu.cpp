@@ -63,7 +63,8 @@ int healthd_board_battery_update(struct android::BatteryProperties *props)
 /*  props->dockBatteryPresent = healthd_board_isDockPresent();
     if (!props->dockBatteryPresent) {
         props->dockBatteryStatus = BATTERY_STATUS_UNKNOWN;
-*/  }
+    }
+*/  
 
 
     // To follow the AOSP battery contract, the board only should report itself
