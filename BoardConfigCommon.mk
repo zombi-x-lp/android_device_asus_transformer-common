@@ -42,6 +42,9 @@ BOARD_KERNEL_PAGESIZE :=
 # EGL settings
 BOARD_EGL_CFG := device/asus/transformer-common/configs/egl.cfg
 USE_OPENGL_RENDERER := true
+VSYNC_EVENT_PHASE_OFFSET_NS := 0
+SF_VSYNC_EVENT_PHASE_OFFSET_NS := 1
+NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 BOARD_HAVE_PIXEL_FORMAT_INFO := true
 
 # Misc display settings
