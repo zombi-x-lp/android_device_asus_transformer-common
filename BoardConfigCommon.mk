@@ -117,6 +117,7 @@ RECOVERY_SDCARD_ON_DATA := true
 BOARD_HAS_NO_REAL_SDCARD := true
 BOARD_HAS_LARGE_FILESYSTEM := true
 TW_INCLUDE_CRYPTO := true
+TW_EXCLUDE_SUPERSU := true
 TW_INTERNAL_STORAGE_PATH := "/data/media"
 TW_INTERNAL_STORAGE_MOUNT_POINT := "data"
 TARGET_RECOVERY_FSTAB := device/asus/transformer-common/ramdisk/fstab.cardhu
