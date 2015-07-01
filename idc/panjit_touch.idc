@@ -13,7 +13,7 @@
 # limitations under the License.
 
 #
-# Input Device Configuration File for the Atmel Maxtouch touch screen.
+# Input Device Configuration File for the Panjit touch screen.
 #
 # These calibration values are derived from empirical measurements
 # and may not be appropriate for use with other touch screens.
