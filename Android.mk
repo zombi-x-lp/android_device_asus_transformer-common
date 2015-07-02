@@ -22,6 +22,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter tf201t tf300t me301t tf700t,$(TARGET_DEVICE)),)
+ifneq ($(filter tf201t tf300t tf700t,$(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
