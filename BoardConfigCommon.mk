@@ -64,7 +64,7 @@ TARGET_HAS_DOCK_BATTERY := true
 COMMON_GLOBAL_CFLAGS += -DNEEDS_VECTORIMPL_SYMBOLS
 
 # Build with GCC-4.7 for kenrel build
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7
+KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(strip $(HOST_OS))-x86/arm/arm-eabi-4.7/bin/"
 
 # Wifi related defines
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
