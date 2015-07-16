@@ -15,7 +15,7 @@
 #
 
 # Install on all transformer tablers
-TARGET_OTA_ASSERT_DEVICE := tf201t,tf300t,me301t,tf700t
+TARGET_OTA_ASSERT_DEVICE := tf201t,tf300t,tf700t
 
 # Audio defines
 BOARD_USES_GENERIC_AUDIO := false
