@@ -21,6 +21,11 @@ TARGET_OTA_ASSERT_DEVICE := tf201t,tf300t,tf700t
 BOARD_USES_GENERIC_AUDIO := false
 BOARD_HAVE_PRE_KITKAT_AUDIO_BLOB := true
 
+# Cardhu HAL libraries
+BOARD_HAL_STATIC_LIBRARIES := \
+    libdumpstate.cardhu \
+    libhealthd.cardhu
+
 # Sensor defines
 SENSORS_NEED_SETRATE_ON_ENABLE := true
 
@@ -57,7 +62,7 @@ BOARD_BLUEDROID_VENDOR_CONF := device/asus/transformer-common/bluetooth/vnd_tf-c
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/asus/transformer-common/bluetooth
 
 # Support for dock battery
-TARGET_HAS_DOCK_BATTERY := true
+# TARGET_HAS_DOCK_BATTERY := true
 
 # Misc flags
 COMMON_GLOBAL_CFLAGS += -DNEEDS_VECTORIMPL_SYMBOLS
