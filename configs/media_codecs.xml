@@ -90,7 +90,6 @@ Only the three quirks included above are recognized at this point:
         <MediaCodec name="OMX.Nvidia.h263.decode" type="video/3gpp" >
             <Limit name="size" min="32x32" max="720x576" />
             <Limit name="alignment" value="2x2" />
-            <Feature name="adaptive-playback" />
         </MediaCodec>
         <MediaCodec name="OMX.Nvidia.h264.decode" type="video/avc" >
             <Limit name="size" min="32x32" max="1920x1088" />
