@@ -105,7 +105,7 @@ TARGET_RELEASETOOL_OTA_FROM_TARGET_ADDITIONAL_ARGS := --override_boot_partition=
 #    zygote.te
 
 # Dynamic memory allocation
-MALLOC_IMPL := dlmalloc
+# MALLOC_IMPL := dlmalloc
 
 # Hardware tunables and properties
 BOARD_HARDWARE_CLASS := device/asus/transformer-common/cmhw/
