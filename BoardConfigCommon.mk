@@ -61,6 +61,7 @@ TARGET_HAS_DOCK_BATTERY := true
 
 # Misc flags
 COMMON_GLOBAL_CFLAGS += -DNEEDS_VECTORIMPL_SYMBOLS
+NO_GNU_ANONYMOUS_STRUCT := true
 
 # Build with GCC-4.7 for kenrel build
 KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(strip $(HOST_OS))-x86/arm/arm-eabi-4.7/bin/"
