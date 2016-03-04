@@ -107,6 +107,9 @@ public final class KeyHandler implements DeviceKeyHandler {
     private AudioManager mAudioManager;
     private BluetoothAdapter mBluetoothAdapter;
     private IPowerManager mPowerManager;
+    public boolean canHandleKeyEvent(KeyEvent event){return false;}
+    public boolean isCameraLaunchEvent(KeyEvent event){return false;}
+    public boolean isWakeEvent(KeyEvent event){return false;}
 
     static {
         AsusdecNative.loadAsusdecLib();
@@ -533,4 +536,6 @@ public final class KeyHandler implements DeviceKeyHandler {
      * Native methods
      */
     native private static boolean nativeToggleTouchpad(boolean status);
+
+
 }
